@@ -32,6 +32,8 @@ cd ..
 export JAVA_HOME=
 rm -rf webshop
 pip install typing_extensions==4.4.0
+pip install Werkzeug==2.2.2
+pip3 install -U spacy
 git clone https://github.com/princeton-nlp/webshop.git webshop
 cd webshop
 ./setup.sh -d small
@@ -39,5 +41,7 @@ cd ../..
 
 
 ## Downgrade faiss, because latest faiss==1.7.3 is buggy and `webshop` installed it.
-conda uninstall faiss-cpu
-conda install six numpy
+mamba uninstall faiss-cpu
+mamba install six numpy
+
+pip3 install -U farm-haystack
