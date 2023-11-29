@@ -70,6 +70,7 @@ Press Enter on all the questions. This process may take about 15 minutes.
 - Installation
 ```
 pip install -e .
+pip3 install -U farm-haystack
 ```
 
 - Make sure everything's good!

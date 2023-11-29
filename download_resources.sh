@@ -31,9 +31,9 @@ cd ..
 # Download Webshop Env
 export JAVA_HOME=
 rm -rf webshop
-pip install typing_extensions==4.4.0
-pip install Werkzeug==2.2.2
-pip3 install -U spacy
+# pip install typing_extensions==4.4.0
+# pip install Werkzeug==2.2.2
+# pip3 install -U spacy
 git clone https://github.com/princeton-nlp/webshop.git webshop
 cd webshop
 ./setup.sh -d small
@@ -44,4 +44,4 @@ cd ../..
 mamba uninstall faiss-cpu
 mamba install six numpy
 
-pip3 install -U farm-haystack
+pip3 install -U pandas
