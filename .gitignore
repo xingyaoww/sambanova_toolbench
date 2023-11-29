@@ -161,3 +161,7 @@ cython_debug/
 data/
 evaluator/cache
 *.sqlite
+evaluator/code_as_policies_env/ur5e
+evaluator/code_as_policies_env/robotiq_2f_85
+evaluator/code_as_policies_env/bowl
+.archive
